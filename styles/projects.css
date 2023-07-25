@@ -1,3 +1,6 @@
+body {
+    overflow: auto;
+}
 .main-work {
     color: black;
     display: flex;
@@ -71,6 +74,6 @@ button {
 
 @media (max-width: 640px) {
     .grid-box {
-        margin-top: 400px;
+        margin-top: 380px;
     }
 }

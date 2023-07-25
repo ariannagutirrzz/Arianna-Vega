@@ -80,7 +80,13 @@ a {
 
     .div-list {
         font-size: 22px;
-        left: -9px;
-       
+        left: -12px;
+    }
+}
+
+
+@media (max-width: 653px) {
+    .div-list {
+        font-size: 15px;
     }
 }

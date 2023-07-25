@@ -72,8 +72,14 @@ button {
     transform: translate(-50%, -50%);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 700px) {
     .grid-box {
-        margin-top: 240px;
+        margin-top: 400px;
     }
 }
+
+/* @media (max-width: 800px) {
+    .grid-box {
+        margin-top: 200px;
+    }
+} */

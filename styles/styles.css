@@ -13,7 +13,6 @@ body {
   h1 {
     font-size: 48px;
 }
-
   .container {
     width: 100%;
     height: 100vh;
@@ -23,7 +22,7 @@ body {
   
   @-webkit-keyframes adjustHue {
     50% {
-      -webkit-filter: saturate(10%) hue-rotate(-10deg);
+      -webkit-filter: saturate(40%) hue-rotate(-10deg);
     }
   }
 

@@ -1,9 +1,14 @@
+body {
+    overflow: auto;
+}
+
 .about-me {
+    z-index: 1;
     width: 80%;
 }
 
 @media (max-width:640px) {
     .about-me {
-        margin-top: 160px;
+        margin-top: 380px;
     }
 }

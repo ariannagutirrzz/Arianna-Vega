@@ -1,0 +1,12 @@
+.contact-me {
+    margin-bottom: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 44px;
+}

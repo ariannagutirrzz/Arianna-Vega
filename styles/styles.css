@@ -69,7 +69,7 @@ a {
     gap: 20px;
 }
 
-@media (max-width: 640px) {
+@media only screen and (max-width: 660px) {
     .name {
         font-size: 40px;
     }
@@ -84,9 +84,9 @@ a {
     }
 }
 
-
-@media (max-width: 653px) {
-    .div-list {
-        font-size: 15px;
-    }
-}
+/* 
+@media only screen and (max-width: 640px) {
+  .div-list {
+    font-size: 15px;
+  }
+} */

@@ -1,0 +1,71 @@
+.main-work {
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    margin: 0 48px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(30deg, #000 0%,#401959 100%);
+    -webkit-animation: 0 infinite; 
+  }
+
+h1 {
+    color: white;
+}
+
+.grid-box{
+    display: grid;
+    gap: 3rem;
+    grid-auto-rows: 28rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%,20rem),1fr));
+}
+
+.cards {
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 15px;
+    position: relative;
+}
+
+p {
+    color: gray;
+    font-size: 18px;
+}
+
+.presentation {
+    object-fit: cover;
+    width: 98%;
+    height: 48%;
+    border-radius: 20px;
+}
+
+.button-icon {
+    width: 32px;
+    padding-bottom: 11px;
+    position: absolute;
+    left: 8px;
+    top: -8px;
+}
+
+
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #401959;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    position: absolute;
+    width: 94%;
+    height: 40px;
+    bottom: -8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

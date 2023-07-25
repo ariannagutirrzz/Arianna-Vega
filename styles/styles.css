@@ -2,6 +2,8 @@ body {
     padding: 0;
     margin: 0;
     overflow: hidden;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   p {
@@ -24,16 +26,13 @@ body {
       -webkit-filter: saturate(10%) hue-rotate(-10deg);
     }
   }
-  
 
   .main {
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 90vh;
-    font-family: Arial, Helvetica, sans-serif;
   }
 
   .name {

@@ -3,7 +3,6 @@ body {
 }
 .main-work {
     color: black;
-    /* height: 90vh; */
     margin: 0 48px;
 }
 
@@ -23,6 +22,7 @@ h1 {
     gap: 3rem;
     grid-auto-rows: 28rem;
     grid-template-columns: repeat(auto-fill, minmax(min(100%,20rem),1fr));
+    margin-bottom: 20px;
 }
 
 .direction {
@@ -80,5 +80,13 @@ button {
         margin-top: 70px;
         display: flex;
         justify-content: center;
+    }
+
+}
+
+@media (max-width: 281px) {
+
+    .button-icon {
+        display: none;
     }
 }

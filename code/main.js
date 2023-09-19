@@ -16,6 +16,14 @@ const projects = [
     linkButton: "https://github.com/ariannagutirrzz/mokepon",
     id: 2,
   },
+  {
+    img: "../img/to-do.jpg",
+    linkApp: "https://to-do-beta-five.vercel.app",
+    title: "to-do",
+    description: " A todo list app",
+    linkButton: "https://github.com/ariannagutirrzz/To-do-list",
+    id: 3,
+  }
   
 ];
 
